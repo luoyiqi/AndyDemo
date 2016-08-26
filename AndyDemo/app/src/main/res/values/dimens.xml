@@ -1,0 +1,76 @@
+<resources>
+    <dimen name="size_0">0dp</dimen>
+    <dimen name="size_1">1dp</dimen>
+    <dimen name="size_2">2dp</dimen>
+    <dimen name="size_4">4dp</dimen>
+    <dimen name="size_6">6dp</dimen>
+    <dimen name="size_8">8dp</dimen>
+    <dimen name="size_10">10dp</dimen>
+    <dimen name="size_12">12dp</dimen>
+    <dimen name="size_16">16dp</dimen>
+    <dimen name="size_20">20dp</dimen>
+    <dimen name="size_24">24dp</dimen>
+    <dimen name="size_26">26dp</dimen>
+    <dimen name="size_28">28dp</dimen>
+    <dimen name="size_30">30dp</dimen>
+    <dimen name="size_32">32dp</dimen>
+    <dimen name="size_36">36dp</dimen>
+    <dimen name="size_40">40dp</dimen>
+    <dimen name="size_48">48dp</dimen>
+    <dimen name="size_60">60dp</dimen>
+    <dimen name="size_64">64dp</dimen>
+    <dimen name="size_72">72dp</dimen>
+    <dimen name="size_78">78dp</dimen>
+    <dimen name="size_80">80dp</dimen>
+    <dimen name="size_90">90dp</dimen>
+    <dimen name="size_100">100dp</dimen>
+    <dimen name="size_120">120dp</dimen>
+    <dimen name="size_130">130dp</dimen>
+    <dimen name="size_150">150dp</dimen>
+    <dimen name="size_160">160dp</dimen>
+    <dimen name="size_176">176dp</dimen>
+    <dimen name="size_180">180dp</dimen>
+    <dimen name="size_200">200dp</dimen>
+    <dimen name="size_240">240dp</dimen>
+    <dimen name="size_250">250dp</dimen>
+    <dimen name="size_300">300dp</dimen>
+    <dimen name="size_320">320dp</dimen>
+    <dimen name="size_400">400dp</dimen>
+    <dimen name="size_450">450dp</dimen>
+    <dimen name="size_420">420dp</dimen>
+    <dimen name="size_500">500dp</dimen>
+
+    <dimen name="size_1px">1px</dimen>
+
+    <!--一行的高度，所有控件-->
+    <dimen name="default_item_height">48dp</dimen>
+
+    <!--文字-->
+    <dimen name="text_size_8">8sp</dimen>
+    <dimen name="text_size_10">10sp</dimen>
+    <dimen name="text_size_micro">12sp</dimen>
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="text_size_item">16sp</dimen>
+    <dimen name="text_size_title">18sp</dimen>
+    <dimen name="text_size_large">20sp</dimen>
+
+    <!--文字dp-->
+    <dimen name="text_size_dp_8">8dp</dimen>
+    <dimen name="text_size_dp_10">10dp</dimen>
+    <dimen name="text_size_dp_12">12dp</dimen>
+    <dimen name="text_size_dp_small">14dp</dimen>
+    <dimen name="text_size_dp_item">16dp</dimen>
+    <dimen name="text_size_dp_title">18dp</dimen>
+    <dimen name="text_size_dp_large">20sp</dimen>
+
+    <!--头像-->
+    <dimen name="avatar_small">32dp</dimen>
+    <dimen name="avatar_medium">64dp</dimen>
+    <dimen name="avatar_large">96dp</dimen>
+
+    <!--圆角-->
+    <dimen name="radius_none">0dp</dimen>
+    <dimen name="radius_small">4dp</dimen>
+    <dimen name="radius_medium">8dp</dimen>
+    <dimen name="radius_large">16dp</dimen>
+</resources>

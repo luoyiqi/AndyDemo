@@ -1,0 +1,49 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BK.AppTheme.NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/white</item>
+    </style>
+
+    <style name="BK.AppTheme.Fullscreen" parent="AppTheme">
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <!--bk styles-->
+    <style name="BK.TextAppearance" parent="">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--价格文本框属性设置-->
+    <style name="BK.TextAppearance.PriceNormal" parent="BK.TextAppearance">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">@dimen/text_size_dp_12</item>
+        <item name="android:textColor">#f22613</item>
+    </style>
+
+    <style name="BK.TextAppearance.PriceSmaller" parent="BK.TextAppearance.PriceNormal">
+        <item name="android:textSize">@dimen/text_size_dp_10</item>
+    </style>
+
+    <style name="BK.TextAppearance.MarketPriceNormal" parent="BK.TextAppearance">
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:layout_marginLeft">@dimen/size_4</item>
+        <item name="android:textSize">@dimen/text_size_dp_10</item>
+        <item name="android:textColor">#999999</item>
+    </style>
+
+    <style name="BK.TextAppearance.MarketPriceSmaller" parent="BK.TextAppearance.MarketPriceNormal">
+        <item name="android:textSize">@dimen/text_size_dp_8</item>
+    </style>
+</resources>

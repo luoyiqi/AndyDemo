@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/recommendGoodsItemContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white">
+    <!--0824-16-->
+    <!--android:background="@drawable/background_default_color_padding_bolder"-->
+
+    <cn.bestkeep.android.ui.widget.SquareLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.facebook.drawee.view.SimpleDraweeView
+            android:id="@+id/goodsImageDraweeView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            fresco:placeholderImage="@mipmap/pic_new_goods" />
+
+        <ImageView
+            android:id="@+id/jjsxImageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_jjsx" />
+    </cn.bestkeep.android.ui.widget.SquareLayout>
+
+    <LinearLayout
+        android:id="@+id/goodsNameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageLayout"
+        android:layout_marginTop="@dimen/size_4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/size_10"
+        android:paddingRight="@dimen/size_10">
+
+        <ImageView
+            android:id="@+id/globalImageView"
+            android:layout_width="41dp"
+            android:layout_height="14dp"
+            android:layout_marginRight="@dimen/size_10"
+            android:src="@mipmap/icon_qqg" />
+
+        <TextView
+            android:id="@+id/goodsNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Royal Dansk"
+            android:textSize="@dimen/text_size_dp_12" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/goodsNameLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goodsNameLayout"
+        android:layout_marginTop="@dimen/size_4"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/size_10"
+        android:paddingRight="@dimen/size_10">
+
+        <TextView
+            android:id="@+id/goodsNameTextView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:text="Line 2"
+            android:textSize="14dp"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/priceLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/goodsNameLayout2"
+        android:layout_marginBottom="@dimen/size_8"
+        android:layout_marginTop="@dimen/size_4"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/size_10"
+        android:paddingRight="@dimen/size_10">
+
+        <TextView
+            android:id="@+id/goodsPriceTextView"
+            style="@style/BK.TextAppearance.PriceNormal"
+            android:text="￥250.00" />
+
+        <TextView
+            style="@style/BK.TextAppearance.MarketPriceNormal"
+            android:text="起" />
+
+        <TextView
+            android:id="@+id/vip_dgj_price"
+            style="@style/BK.TextAppearance.MarketPriceNormal"
+            android:layout_marginLeft="@dimen/size_8"
+            android:text="￥50.00" />
+    </LinearLayout>
+</RelativeLayout>
